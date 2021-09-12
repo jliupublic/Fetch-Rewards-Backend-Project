@@ -1,7 +1,7 @@
 # Fetch-Rewards-Backend-Project
 A service for tracking points paid and spent by payers and users
 
-# Get started
+# Getting started
 1. Clone this repository
 2. Install Python 3 (preferably 3.9)
 3. Navigate to the directory containing `requirements.txt` and run  
