@@ -13,15 +13,21 @@ $ pip install -r requirements.txt
 
 # Usage
 * To add transactions, navigate to [127.0.0.1:8080/add](http://127.0.0.1:8080/add) and fill out the form.  
-Fill out the form like this:  
-Payer: DANNON  
-Points: 1000  
-Timestamp: 2020-11-02T14:00:00Z  
-Press 'submit' after you fill out all fields.
+Fill out the form like this: 
+
+  > Payer: DANNON  
+  > Points: 1000  
+  > Timestamp: 2020-11-02T14:00:00Z  
+
+  Press 'submit' after you fill out all fields.  
+  To add another transaction, navigate to [127.0.0.1:8080/add](http://127.0.0.1:8080/add) again.
 
 * To spend points, navigate to [127.0.0.1:8080/spend](http://127.0.0.1:8080/spend) and fill out the form.  
 Fill out the form like this:  
-Points: 1000  
-Press 'submit' after you fill out all fields.
+
+  > Points: 1000  
+
+  Press 'submit' after you fill out all fields.  
+  To spend more points, navigate to [127.0.0.1:8080/spend](http://127.0.0.1:8080/spend) again.
 
 * To return all payer point balances, navigate to [127.0.0.1:8080/balances](http://127.0.0.1:8080/balances).
